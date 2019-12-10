@@ -1,0 +1,39 @@
+<BottomNavigation>
+    <TabStrip>
+        <TabStripItem >
+            <Label text="Authentification"></Label>
+        </TabStripItem>
+        <TabStripItem >
+            <Label text="Shopping List"></Label>
+        </TabStripItem>
+         <TabStripItem >
+            <Label text="Cook Book"></Label>
+        </TabStripItem>
+       <!-- <TabStripItem >
+            <Label text="Ingredient List"></Label>
+        </TabStripItem>
+        <TabStripItem >
+            <Label text="Add Ingredient"></Label>
+        </TabStripItem> -->
+    </TabStrip>
+
+    <TabContentItem>
+        <page-router-outlet name="authentificationTab"></page-router-outlet>
+    </TabContentItem>
+
+    <TabContentItem>
+            <page-router-outlet name="ingredientListTab"></page-router-outlet>
+        </TabContentItem>
+
+    <TabContentItem>
+        <page-router-outlet name="recipeListTab"></page-router-outlet>
+    </TabContentItem>
+
+    <!-- <TabContentItem>
+        <page-router-outlet name="addRecipeTab"></page-router-outlet>
+    </TabContentItem>
+
+    <TabContentItem>
+        <page-router-outlet name="addIngredientTab"></page-router-outlet>
+    </TabContentItem> -->
+</BottomNavigation>
